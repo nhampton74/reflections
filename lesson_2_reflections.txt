@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository it creates the .git directory to store meta data about changes
 to any files you decide to track.  You need to do it so git knows you want to create a repository
@@ -19,7 +19,13 @@ add them to the staging area one at a time and commit them seperatly.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When you want to test out a idea you are not sure is going to work out, or you are working in a team 
+and don't want your changes for a new feature to be pulled until you have them in a stable state.
+
 How do the diagrams help you visualize the branch structure?
+
+They show a graphical representation of the branching which allows you to easily trace back and see
+where a branch began and what commits are reachable by each branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
